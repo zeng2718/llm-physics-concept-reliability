@@ -1,11 +1,8 @@
 cff-version: 1.2.0
-message: >-
-  If you use these data, code, or study materials, please cite this repository
-  and the associated manuscript.
-type: dataset
-title: >-
-  Public data and code for "Reliability Boundaries of Reasoning Large Language
-  Models in Physics Education: Evidence from Concept Inventories"
+message: "If you use these data, code, or study materials, please cite this repository and the associated manuscript."
+type: software
+title: "Public data and code for Reliability Boundaries of Reasoning Large Language Models in Physics Education: Evidence from Concept Inventories"
+version: 1.0.2
 authors:
   - family-names: Zeng
     given-names: Yi
@@ -15,10 +12,7 @@ authors:
     given-names: Yixin
   - family-names: Tian
     given-names: Xuechen
-abstract: >-
-  De-identified response-level data, analysis and plotting code, prompt
-  templates, coding definitions, and test-secure isomorphic-variant selection
-  and review records supporting the associated manuscript.
+abstract: "De-identified response-level data, analysis and plotting code, prompt templates, coding definitions, and test-secure isomorphic-variant selection and review records supporting the associated manuscript."
 keywords:
   - large language models
   - physics education
@@ -26,6 +20,4 @@ keywords:
   - reliability
   - prompted self-review
   - confidence calibration
-license:
-  - MIT
-  - CC-BY-4.0
+license: "CC-BY-4.0"
