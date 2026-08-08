@@ -1,0 +1,6 @@
+"Metric","Numerator","Denominator","Measure Type","Proportion","Label"
+"Recognized disagreement",49,65,"Monitoring / evaluation",0.753846153846154,"49/65"
+"Evaluated prior reasoning",41,65,"Monitoring / evaluation",0.630769230769231,"41/65"
+"Substantive regulation (ML-3)",22,65,"Monitoring / evaluation",0.338461538461538,"22/65"
+"Error persistence (CQ-3)",32,65,"Failure-related",0.492307692307692,"32/65"
+"SRF among incorrect probes",23,27,"Failure-related",0.851851851851852,"23/27"

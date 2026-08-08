@@ -1,0 +1,12 @@
+Code,Label,Operational definition
+AD-1,No assumption deficit,A necessary assumption is explicitly stated or handled correctly.
+AD-2,Assumption omitted/asserted,"A necessary assumption is omitted or treated as a fact, affecting reasoning quality."
+AD-3,Not applicable,No additional key assumption is required.
+CB-1,Contradiction identified/handled,An explicit contradiction is identified and a coherent path is selected.
+CB-2,"Identified, not handled",A contradiction is mentioned but remains unresolved.
+CB-3,Contradiction blindness,An explicit contradiction is present but ignored.
+CB-4,Not applicable,No explicit contradiction requires handling.
+SRF-1,No spatial failure,Spatial relationships are described and physical rules are applied correctly.
+SRF-2,Spatial failure,"Visual reading, rule execution, or spatial coordination produces an error."
+SRF-3,Not applicable/not codable,"Text-only item, no spatial representation, DNF, or insufficient evidence."
+V / R / C / G,SRF subtype,Visual misreading / rule error / coordination-application error / graph error.

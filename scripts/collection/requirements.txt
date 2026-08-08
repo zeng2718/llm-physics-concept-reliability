@@ -1,0 +1,3 @@
+# Formal collection routes used the OpenAI-compatible client.
+openai>=1.40
+httpx>=0.27

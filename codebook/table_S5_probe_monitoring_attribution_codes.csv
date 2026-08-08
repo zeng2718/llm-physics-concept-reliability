@@ -1,0 +1,13 @@
+Code,Label,Operational definition
+CI-1,Explicit identification,"Names a contradiction, inconsistency, or conflict and identifies its locus."
+CI-2,Implicit identification,Notes different assumptions or interpretations without explicitly naming a contradiction.
+CI-3,Not identified,Ignores the inconsistency or treats it as interchangeable interpretations.
+AT-CAL,Calculation,"Attributes disagreement to arithmetic, algebra, units, magnitude, or numerical work."
+AT-ASM,Assumptions/conditions,"Attributes disagreement to assumptions, defaults, or model boundaries."
+AT-AMB,Ambiguity/answer standard,"Attributes disagreement to wording, missing information, or option criteria."
+AT-VIS,Visual/graph reading,"Attributes disagreement to image elements, locations, axes, curves, or topology."
+AT-MAP,Option mapping,"Attributes disagreement to mapping a physical conclusion onto an option, letter, or graphic."
+AT-SPC,Spatial rule application,"Attributes disagreement to tangents, hand rules, vectors, page direction, or rotation."
+AT-CON,Concept/model application,"Attributes disagreement to a core concept, mechanism, law, or causal model."
+AT-MAJ,No attribution/mechanical choice,"Uses majority, frequency, intuition, or surface agreement without explaining the cause."
+AT-OTH,Other/uncertain,No listed category fits or visible text is insufficient for stable classification.

@@ -1,0 +1,20 @@
+comparison_tier,model,item_id,inventory,incorrect_run_count,correct_run_count,dnf_run_count,majority_outcome,error_pattern,answer_level_overlap,mechanism_level_overlap,cited_sources
+primary_majority_incorrect,Kimi K2.6,FCI-07,FCI,3,2,0,incorrect,representation-driven,yes,no,Eaton et al. 2019; Wells et al. 2019
+primary_majority_incorrect,Kimi K2.6,FCI-12,FCI,4,1,0,incorrect,representation-driven,yes,no,Eaton et al. 2019; Scott and Schumayer 2018
+primary_majority_incorrect,Kimi K2.6,FCI-20,FCI,4,0,1,incorrect,representation-driven,yes,no,Eaton et al. 2019; Scott and Schumayer 2018
+primary_majority_incorrect,Kimi K2.6,FCI-21,FCI,5,0,0,incorrect,representation-driven,yes,no,Eaton et al. 2019
+primary_majority_incorrect,Kimi K2.6,TCE-21,TCE,5,0,0,incorrect,other / construct-boundary,yes,indeterminate,Yeo and Zadnik 2001; Stylos et al. 2021
+primary_majority_incorrect,GPT-5.5,TCE-21,TCE,4,1,0,incorrect,other / construct-boundary,yes,indeterminate,Yeo and Zadnik 2001; Stylos et al. 2021
+primary_majority_incorrect,Gemini 3.1 Pro Preview,FCI-20,FCI,3,2,0,incorrect,representation-driven,partial,no,Eaton et al. 2019; Scott and Schumayer 2018
+primary_majority_incorrect,Gemini 3.1 Pro Preview,TCE-04,TCE,5,0,0,incorrect,other / construct-boundary,yes,partial,Yeo and Zadnik 2001; Stylos et al. 2021
+primary_majority_incorrect,Gemini 3.1 Pro Preview,TCE-06,TCE,5,0,0,incorrect,other / construct-boundary,yes,partial,Yeo and Zadnik 2001; Stylos et al. 2021
+primary_majority_incorrect,Claude Opus 4.6,BEMA-10,BEMA,5,0,0,incorrect,representation-driven,yes,no,Wheatley et al. 2024 and its supplement
+primary_majority_incorrect,Claude Opus 4.6,FCI-19,FCI,5,0,0,incorrect,representation-driven,no,no,Eaton et al. 2019
+primary_majority_incorrect,Claude Opus 4.6,FCI-20,FCI,5,0,0,incorrect,representation-driven,yes,no,Eaton et al. 2019; Scott and Schumayer 2018
+primary_majority_incorrect,Claude Opus 4.6,FCI-21,FCI,5,0,0,incorrect,representation-driven,yes,no,Eaton et al. 2019; Wells et al. 2019
+sensitivity_correct_majority,Claude Opus 4.6,BEMA-04,BEMA,2,3,0,correct,representation-driven,yes,no,Wheatley et al. 2024 and its supplement
+sensitivity_correct_majority,Claude Opus 4.6,FCI-26,FCI,2,3,0,correct,other / construct-boundary,yes,partial,Eaton et al. 2019; Hestenes et al. 1992
+sensitivity_correct_majority,Claude Opus 4.6,FCI-29,FCI,1,4,0,correct,other / construct-boundary,yes,partial,Shoji et al. 2021; Eaton et al. 2019
+sensitivity_correct_majority,Kimi K2.6,BEMA-28,BEMA,2,3,0,correct,representation-driven,yes,no,Wheatley et al. 2024 and its supplement
+sensitivity_correct_majority,Kimi K2.6,TCE-04,TCE,1,4,0,correct,other / construct-boundary,yes,partial,Yeo and Zadnik 2001; Stylos et al. 2021
+sensitivity_correct_majority,GPT-5.5,FCI-21,FCI,1,4,0,correct,representation-driven,yes,no,Eaton et al. 2019

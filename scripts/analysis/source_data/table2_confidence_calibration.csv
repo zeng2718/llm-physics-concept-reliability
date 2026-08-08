@@ -1,0 +1,5 @@
+"Model","Valid n","Accuracy","Mean Confidence","ECE"
+"Kimi K2.6",424,0.943,0.995,0.056
+"GPT-5.5",435,0.989,0.987,0.009
+"Gemini 3.1 Pro Preview",435,0.97,0.998,0.028
+"Claude Opus 4.6",435,0.943,0.916,0.03

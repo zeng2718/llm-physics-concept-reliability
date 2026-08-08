@@ -1,0 +1,13 @@
+Code,Label,Operational definition
+AC-1,Correct,The reasoning-supported option meaning matches the expert key.
+AC-2,Incorrect,The reasoning-supported option meaning does not match the expert key.
+AC-3,Unanswered/indeterminate,"No final answer, DNF (did not finish), non-convergence, or no option can be mapped."
+RC-1,Correct reasoning,"Core physical principle, key steps, and conclusion path are correct."
+RC-2,Partly correct reasoning,"Substantive correct physics is present, but a local or key step is flawed or incomplete."
+RC-3,Incorrect reasoning,The core physical principle or reasoning path is incorrect.
+RC-4,Not codable,"No readable reasoning, DNF, or insufficient output."
+Rep-1,Correct representation,All task-relevant representational elements are interpreted correctly.
+Rep-2,Partly correct representation,Most elements are read correctly; a noncritical element is omitted or misread.
+Rep-3,Incorrect representation,A critical representational element is misread and affects the reasoning.
+Rep-4,Not applicable/not codable,"No representation, representation ignored, DNF, or insufficient text."
+Rep-LM = 1,Letter–meaning mismatch,The stated letter does not match the option meaning supported by the reasoning.

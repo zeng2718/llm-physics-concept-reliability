@@ -1,0 +1,9 @@
+"Model","SRF Subtype","Subtype Failures","Applicable Responses","Subtype Rate","Subtype Label","Model Label","Total SRF","Total SRF Rate"
+"Kimi K2.6","V",17,239,0.0711297071129707,"Visual misreading","Kimi K2.6",23,0.096234309623431
+"Kimi K2.6","C",6,239,0.0251046025104603,"Coordination/application","Kimi K2.6",23,0.096234309623431
+"GPT-5.5","V",1,250,0.004,"Visual misreading","GPT-5.5",1,0.004
+"GPT-5.5","C",0,250,0,"Coordination/application","GPT-5.5",1,0.004
+"Gemini 3.1 Pro Preview","V",3,250,0.012,"Visual misreading","Gemini 3.1 Pro",3,0.012
+"Gemini 3.1 Pro Preview","C",0,250,0,"Coordination/application","Gemini 3.1 Pro",3,0.012
+"Claude Opus 4.6","V",27,250,0.108,"Visual misreading","Claude Opus 4.6",27,0.108
+"Claude Opus 4.6","C",0,250,0,"Coordination/application","Claude Opus 4.6",27,0.108

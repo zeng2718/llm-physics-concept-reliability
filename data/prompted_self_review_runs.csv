@@ -1,0 +1,66 @@
+Model,Data Stage,Item ID,Original Item ID,Inventory,Run,Response Class,Completion Status,Reasoning Source,Has Figure,Number of Figures,Confidence Raw,Confidence Normalized,AC,RC,Rep,Rep-LM,AD,CB,SRF,SRF-sub,CI,AT,CQ,EVAL,ML
+Claude Opus 4.6,prompted self-review probe,FCI-14,,FCI,1,class_2,completed,visible output,true,1,8,0.8,AC-1,RC-2,Rep-3,1,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,FCI-14,,FCI,2,class_2,completed,visible output,true,1,7,0.7,AC-1,RC-2,Rep-3,1,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-14,,FCI,3,class_2,completed,visible output,true,1,7,0.7,AC-1,RC-2,Rep-3,1,AD-3,CB-4,SRF-2,V,CI-1,AT-MAJ,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-14,,FCI,4,class_2,completed,visible output,true,1,8,0.8,AC-1,RC-2,Rep-3,1,AD-3,CB-4,SRF-2,V,CI-1,AT-MAJ,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-14,,FCI,5,class_2,completed,visible output,true,1,7,0.7,AC-1,RC-2,Rep-3,1,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,FCI-20,,FCI,1,class_3,completed,visible output,true,1,7,0.7,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,FCI-20,,FCI,2,class_3,completed,visible output,true,1,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-20,,FCI,3,class_3,completed,visible output,true,1,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-20,,FCI,4,class_1,completed,visible output,true,1,7,0.7,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,FCI-20,,FCI,5,class_3,completed,visible output,true,1,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-26,,FCI,1,class_2,completed,visible output,false,0,8,0.8,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-ASM,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-26,,FCI,2,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-ASM,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-26,,FCI,3,class_2,completed,visible output,false,0,8,0.8,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-ASM,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-26,,FCI,4,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-ASM,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-26,,FCI,5,class_1,completed,visible output,false,0,5,0.5,AC-2,RC-2,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-ASM,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,FCI-29,,FCI,1,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-CON,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-29,,FCI,2,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-CON,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-29,,FCI,3,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-CON,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-29,,FCI,4,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-CON,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,FCI-29,,FCI,5,class_2,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-CON,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,BEMA-04,,BEMA,1,class_1,completed,visible output,true,2,7,0.7,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,BEMA-04,,BEMA,2,class_1,completed,visible output,true,2,7,0.7,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-VIS,CQ-1,EVAL-1,ML-3
+Claude Opus 4.6,prompted self-review probe,BEMA-04,,BEMA,3,class_2,completed,visible output,true,2,5,0.5,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,BEMA-04,,BEMA,4,class_2,completed,visible output,true,2,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Claude Opus 4.6,prompted self-review probe,BEMA-04,,BEMA,5,class_2,completed,visible output,true,2,7,0.7,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,BEMA-10,,BEMA,1,class_2,completed,visible output,true,1,7,0.7,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,BEMA-10,,BEMA,2,class_2,completed,visible output,true,1,5,0.5,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,BEMA-10,,BEMA,3,class_2,completed,visible output,true,1,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,BEMA-10,,BEMA,4,class_2,completed,visible output,true,1,6,0.6,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Claude Opus 4.6,prompted self-review probe,BEMA-10,,BEMA,5,class_2,completed,visible output,true,1,8,0.8,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-1,ML-2
+Gemini 3.1 Pro Preview,prompted self-review probe,FCI-20,,FCI,1,class_2,completed,visible output,true,1,10,1,AC-1,RC-1,Rep-2,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Gemini 3.1 Pro Preview,prompted self-review probe,FCI-20,,FCI,2,class_3,completed,visible output,true,1,10,1,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Gemini 3.1 Pro Preview,prompted self-review probe,FCI-20,,FCI,3,class_2,completed,visible output,true,1,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Gemini 3.1 Pro Preview,prompted self-review probe,FCI-20,,FCI,4,class_3,completed,visible output,true,1,10,1,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-3,EVAL-0,ML-0
+Gemini 3.1 Pro Preview,prompted self-review probe,FCI-20,,FCI,5,class_2,completed,visible output,true,1,10,1,AC-1,RC-1,Rep-2,0,AD-3,CB-4,SRF-2,V,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+GPT-5.5,prompted self-review probe,FCI-21,,FCI,1,class_2,completed,provider auxiliary,true,2,8,0.8,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-1,AT-VIS,CQ-3,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,FCI-21,,FCI,2,class_2,completed,provider auxiliary,true,2,9,0.9,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-2,AT-VIS,CQ-3,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,FCI-21,,FCI,3,class_1,completed,provider auxiliary,true,2,8,0.8,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-2,AT-VIS,CQ-2,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,FCI-21,,FCI,4,class_2,completed,provider auxiliary,true,2,9,0.9,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,V,CI-2,AT-VIS,CQ-3,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,FCI-21,,FCI,5,class_1,completed,provider auxiliary,true,2,8,0.8,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-2,AT-VIS,CQ-2,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,TCE-21,,TCE,1,class_1,completed,visible output,false,0,8,0.8,AC-2,RC-2,Rep-4,0,AD-3,CB-4,SRF-3,,CI-2,AT-AMB,CQ-3,EVAL-0,ML-1
+GPT-5.5,prompted self-review probe,TCE-21,,TCE,2,class_2,completed,provider auxiliary,false,0,7,0.7,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3
+GPT-5.5,prompted self-review probe,TCE-21,,TCE,3,class_2,completed,provider auxiliary,false,0,7,0.7,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3
+GPT-5.5,prompted self-review probe,TCE-21,,TCE,4,class_1,completed,provider auxiliary,false,0,8,0.8,AC-2,RC-2,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-3,EVAL-1,ML-2
+GPT-5.5,prompted self-review probe,TCE-21,,TCE,5,class_1,completed,provider auxiliary,false,0,8,0.8,AC-2,RC-2,Rep-4,0,AD-3,CB-4,SRF-3,,CI-2,AT-AMB,CQ-3,EVAL-0,ML-1
+Kimi K2.6,prompted self-review probe,FCI-07,,FCI,1,class_2,completed,visible output,true,1,9,0.9,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Kimi K2.6,prompted self-review probe,FCI-07,,FCI,2,class_2,completed,visible output,true,1,9,0.9,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Kimi K2.6,prompted self-review probe,FCI-07,,FCI,3,class_2,completed,visible output,true,1,9,0.9,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-MAJ,CQ-2,EVAL-0,ML-0
+Kimi K2.6,prompted self-review probe,FCI-07,,FCI,4,class_2,completed,visible output,true,1,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-VIS,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,FCI-07,,FCI,5,class_2,completed,provider auxiliary,true,1,9,0.9,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-VIS,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,FCI-12,,FCI,1,class_2,completed,visible output,true,1,9,0.9,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,C,CI-1,AT-MAP,CQ-3,EVAL-1,ML-2
+Kimi K2.6,prompted self-review probe,FCI-12,,FCI,2,class_2,completed,visible output,true,1,9,0.9,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,C,CI-1,AT-MAP,CQ-3,EVAL-1,ML-2
+Kimi K2.6,prompted self-review probe,FCI-12,,FCI,3,class_2,completed,visible output,true,1,9,0.9,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,C,CI-1,AT-MAP,CQ-3,EVAL-1,ML-2
+Kimi K2.6,prompted self-review probe,FCI-12,,FCI,4,class_2,completed,visible output,true,1,10,1,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,C,CI-1,AT-MAP,CQ-3,EVAL-1,ML-2
+Kimi K2.6,prompted self-review probe,FCI-12,,FCI,5,class_2,completed,visible output,true,1,10,1,AC-2,RC-2,Rep-3,0,AD-3,CB-4,SRF-2,C,CI-1,AT-MAP,CQ-3,EVAL-1,ML-2
+Kimi K2.6,prompted self-review probe,BEMA-28,,BEMA,1,class_2,completed,provider auxiliary,true,2,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-SPC,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,BEMA-28,,BEMA,2,class_2,completed,visible output,true,2,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-3,AT-SPC,CQ-2,EVAL-0,ML-0
+Kimi K2.6,prompted self-review probe,BEMA-28,,BEMA,3,class_2,completed,provider auxiliary,true,2,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-SPC,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,BEMA-28,,BEMA,4,class_2,completed,visible output,true,2,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-SPC,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,BEMA-28,,BEMA,5,class_2,completed,visible output,true,2,10,1,AC-1,RC-1,Rep-1,0,AD-3,CB-4,SRF-1,,CI-1,AT-SPC,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,TCE-04,,TCE,1,class_1,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,TCE-04,,TCE,2,class_1,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,TCE-04,,TCE,3,class_1,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-0,ML-1
+Kimi K2.6,prompted self-review probe,TCE-04,,TCE,4,class_1,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3
+Kimi K2.6,prompted self-review probe,TCE-04,,TCE,5,class_1,completed,visible output,false,0,9,0.9,AC-1,RC-1,Rep-4,0,AD-3,CB-4,SRF-3,,CI-1,AT-AMB,CQ-1,EVAL-1,ML-3

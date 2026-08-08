@@ -1,0 +1,121 @@
+"Format","Item ID","Item Label","Model","Run","Outcome","AC","SRF","SRF Subtype","Rep-LM"
+"Trajectory alternatives","FCI-07","FCI Q7","Kimi K2.6",1,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-07","FCI Q7","Kimi K2.6",2,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-07","FCI Q7","Kimi K2.6",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Kimi K2.6",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Kimi K2.6",5,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-07","FCI Q7","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","GPT-5.5",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Gemini 3.1 Pro Preview",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Gemini 3.1 Pro Preview",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Gemini 3.1 Pro Preview",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Claude Opus 4.6",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Claude Opus 4.6",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Claude Opus 4.6",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Claude Opus 4.6",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-07","FCI Q7","Claude Opus 4.6",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Kimi K2.6",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Kimi K2.6",2,"Wrong","AC-2","SRF-2","C",0
+"Trajectory alternatives","FCI-12","FCI Q12","Kimi K2.6",3,"Wrong","AC-2","SRF-2","C",0
+"Trajectory alternatives","FCI-12","FCI Q12","Kimi K2.6",4,"Wrong","AC-2","SRF-2","C",0
+"Trajectory alternatives","FCI-12","FCI Q12","Kimi K2.6",5,"Wrong","AC-2","SRF-2","C",0
+"Trajectory alternatives","FCI-12","FCI Q12","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","GPT-5.5",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Gemini 3.1 Pro Preview",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Gemini 3.1 Pro Preview",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Gemini 3.1 Pro Preview",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Claude Opus 4.6",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Claude Opus 4.6",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Claude Opus 4.6",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Claude Opus 4.6",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-12","FCI Q12","Claude Opus 4.6",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Kimi K2.6",1,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Kimi K2.6",2,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Kimi K2.6",3,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Kimi K2.6",4,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Kimi K2.6",5,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","GPT-5.5",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Gemini 3.1 Pro Preview",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Gemini 3.1 Pro Preview",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Gemini 3.1 Pro Preview",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-14","FCI Q14","Claude Opus 4.6",1,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Claude Opus 4.6",2,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Claude Opus 4.6",3,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Claude Opus 4.6",4,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-14","FCI Q14","Claude Opus 4.6",5,"Correct","AC-1","SRF-2","V",1
+"Trajectory alternatives","FCI-21","FCI Q21","Kimi K2.6",1,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Kimi K2.6",2,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Kimi K2.6",3,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Kimi K2.6",4,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Kimi K2.6",5,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","GPT-5.5",5,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Gemini 3.1 Pro Preview",1,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","Gemini 3.1 Pro Preview",2,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","Gemini 3.1 Pro Preview",4,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Trajectory alternatives","FCI-21","FCI Q21","Claude Opus 4.6",1,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Claude Opus 4.6",2,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Claude Opus 4.6",3,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Claude Opus 4.6",4,"Wrong","AC-2","SRF-2","V",0
+"Trajectory alternatives","FCI-21","FCI Q21","Claude Opus 4.6",5,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-19","FCI Q19","Kimi K2.6",1,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-19","FCI Q19","Kimi K2.6",2,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-19","FCI Q19","Kimi K2.6",3,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-19","FCI Q19","Kimi K2.6",4,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-19","FCI Q19","Kimi K2.6",5,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-19","FCI Q19","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","GPT-5.5",5,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Gemini 3.1 Pro Preview",1,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Gemini 3.1 Pro Preview",2,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Gemini 3.1 Pro Preview",4,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-19","FCI Q19","Claude Opus 4.6",1,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-19","FCI Q19","Claude Opus 4.6",2,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-19","FCI Q19","Claude Opus 4.6",3,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-19","FCI Q19","Claude Opus 4.6",4,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-19","FCI Q19","Claude Opus 4.6",5,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Kimi K2.6",1,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Kimi K2.6",2,"DNF","AC-3","SRF-3",,0
+"Tick-mark scales","FCI-20","FCI Q20","Kimi K2.6",3,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Kimi K2.6",4,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Kimi K2.6",5,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","GPT-5.5",1,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","GPT-5.5",2,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","GPT-5.5",3,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","GPT-5.5",4,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","GPT-5.5",5,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","Gemini 3.1 Pro Preview",1,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Gemini 3.1 Pro Preview",2,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Gemini 3.1 Pro Preview",3,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","Gemini 3.1 Pro Preview",4,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Gemini 3.1 Pro Preview",5,"Correct","AC-1","SRF-1",,0
+"Tick-mark scales","FCI-20","FCI Q20","Claude Opus 4.6",1,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Claude Opus 4.6",2,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Claude Opus 4.6",3,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Claude Opus 4.6",4,"Wrong","AC-2","SRF-2","V",0
+"Tick-mark scales","FCI-20","FCI Q20","Claude Opus 4.6",5,"Wrong","AC-2","SRF-2","V",0

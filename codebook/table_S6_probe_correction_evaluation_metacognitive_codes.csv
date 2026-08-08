@@ -1,0 +1,11 @@
+Code,Label,Operational definition or derivation
+CQ-1,Substantive regulation,"Compares prior reasoning, assumptions, or visual paths and gives an evidence-based final answer."
+CQ-2,Formal regulation,"Chooses from surface cues, majority, assertion, or a fresh solution without substantive comparison."
+CQ-3,Error persistence,Retains or selects an incorrect answer or fails to correct an erroneous path.
+CQ-4,Indeterminate,The correction logic cannot be classified.
+EVAL-1,Evaluation present,Judges which prior reasoning path is more defensible.
+EVAL-0,No evaluation,Does not compare the defensibility of prior reasoning paths.
+ML-0,No monitoring,CI = CI-3.
+ML-1,Monitoring,"CI ∈ {CI-1, CI-2} and EVAL = EVAL-0."
+ML-2,Evaluation,"CI ∈ {CI-1, CI-2}, EVAL = EVAL-1, and CQ ≠ CQ-1."
+ML-3,Regulation,"CI ∈ {CI-1, CI-2}, EVAL = EVAL-1, and CQ = CQ-1."

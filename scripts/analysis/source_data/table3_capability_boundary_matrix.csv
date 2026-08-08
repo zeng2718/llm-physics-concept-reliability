@@ -1,0 +1,6 @@
+"Evidence Dimension","Empirical Capability and Boundary","Educational Implication"
+"Conceptual task performance and near transfer","High accuracy and stable transfer to isomorphic variants; evidence is limited to the tested transformations.","Support concept-question solving and independently verifiable answer checking."
+"Figure-grounded reasoning","Most illustrated items were solved correctly, but representation failures clustered by model and figure format.","Validate the deployed model on the actual figures; test clearer redraws or parallel text where needed."
+"Reliability and self-review","Responses were usually stable, but stable errors occurred and prompted review of inconsistent solutions did not reliably correct them.","Use disagreement as a warning signal; persistent cases require changed representations or external verification."
+"Model-stated confidence","Calibration was model-specific, with high-confidence errors and inconsistent scale use.","Calibrate by model and use confidence to prioritize review, not as proof of correctness."
+"Comparison with documented student misconceptions","Wrong-option overlap was common, but the underlying mechanisms generally differed from documented student misconceptions.","Do not use model errors as proxies for student thinking without mechanism-level validation."

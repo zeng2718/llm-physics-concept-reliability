@@ -1,0 +1,17 @@
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+~$*
+
+.env
+.env.*
+!.env.example
+
+# Protected inputs and raw model outputs must never be committed.
+restricted_items/
+restricted_variants/
+results/
+scripts/figures/reproduced_figures/
