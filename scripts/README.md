@@ -19,9 +19,9 @@ The public package does not include the restricted item files needed to repeat d
 Example commands, run from `scripts/collection/`:
 
 ```bash
-python run_batch.py --model kimi --domains F,EM,T --runs 5
-python run_batch.py --model kimi --run-type variant --runs 5
-python run_batch.py --model kimi --run-type prompted_self_review --runs 5
+python3 run_batch.py --model kimi --domains F,EM,T --runs 5
+python3 run_batch.py --model kimi --run-type variant --runs 5
+python3 run_batch.py --model kimi --run-type prompted_self_review --runs 5
 ```
 
 For `prompted_self_review`, the script identifies model–item series with at least two distinct valid final answer choices across the five prior main-item runs. Every probe response is collected in a new session; the five prior answers and reasoning records are presented in the same deterministic randomized order used in the study.

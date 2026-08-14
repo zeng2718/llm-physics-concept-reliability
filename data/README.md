@@ -45,11 +45,18 @@ Actual final-answer letters were replaced with item-specific response classes. T
 
 Full model rationales and raw provider responses are excluded because they can reproduce protected question content. Ten exploratory variant follow-up records and all archived or sensitivity-only collection branches are outside the 2,305-response formal corpus and are not included.
 
-## Comparison with documented student misconceptions
+## Comparison with documented student responses and misconception evidence
 
-`student_misconception_comparison.csv` uses the manuscript term `comparison` throughout. It contains only the fields needed to reproduce the primary and sensitivity contingency counts: model and item identifiers, correct/incorrect/DNF run counts, majority outcome, the two-level error-pattern grouping used in Figure 5, answer-level overlap, mechanism-level overlap, and supporting literature.
+`student_misconception_comparison.csv` uses the manuscript term `comparison` throughout. It contains the fields needed to reproduce and audit the primary and sensitivity contingency counts: model and item identifiers, correct/incorrect/DNF run counts, majority outcome, the two-level error-pattern grouping used in Figure 5, answer-level overlap, mechanism-level overlap, supporting literature, and test-secure evidence-basis and qualification fields.
 
-It does not contain answer keys, actual response letters, option-level mappings, detailed item-specific reasoning summaries, or internal evidence grades. `primary_majority_incorrect` contains the 13 majority-incorrect model–item series. `sensitivity_correct_majority` contains the 6 correct-majority series with at least one adjudicated incorrect completed response; these tiers must not be pooled or treated as independent run-level observations.
+It does not contain answer keys, actual response letters, option-level mappings, detailed item-specific reasoning summaries, or internal evidence grades. `primary_majority_incorrect` contains the 13 majority-incorrect model–item series. Its mechanism-level counts are 8 `no`, 2 `partial`, 3 `indeterminate`, and 0 `full`; the three indeterminate series are excluded from mechanism-level proportions. `sensitivity_correct_majority` contains the 6 correct-majority series with at least one adjudicated incorrect completed response. Its corresponding mechanism-level counts are 3 `no`, 2 `partial`, 1 `indeterminate`, and 0 `full`; the indeterminate series is excluded from mechanism-level proportions. These tiers must not be pooled or treated as independent run-level observations.
+
+The two evidence fields provide an auditable claim boundary without disclosing protected item content. `evidence_basis` records the kind of published support used, such as a distractor taxonomy, response-option frequency, response-community analysis, validation/item analysis, or student-explanation study. `evidence_qualification` records limits on the inference from response-option correspondence to a shared mechanism. In particular, the BEMA Q10 comparison rests on response-option frequency below the cited network threshold and lacks an item-specific published student mechanism; for the revised FCI Q26 comparison, student selection of the matched response is documented, but its published taxonomy label differs from the model's added resistance account, for which item-specific student-reasoning support was not available.
+
+| Comparison-file column | Meaning |
+|---|---|
+| `evidence_basis` | Test-secure description of the published evidence type used for that series |
+| `evidence_qualification` | Series-specific limit on what the cited evidence establishes about answer- or mechanism-level overlap |
 
 ## Source- or answer-recall presence
 

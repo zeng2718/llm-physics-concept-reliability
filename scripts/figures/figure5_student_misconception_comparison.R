@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 
-# Figure 5. Comparison between model errors and documented student misconceptions.
+# Figure 5. Comparison of model errors with documented student responses and misconception evidence.
 # Equal-sized primary and sensitivity contingency panels; R-only output.
 
 script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
@@ -9,6 +9,7 @@ script_dir <- dirname(normalizePath(script_path, mustWork = TRUE))
 source(file.path(script_dir, "figure_style.R"))
 
 out_dir <- figure_output_dir
+source_dir <- figure_source_dir
 comparison <- read_public_data("student_misconception_comparison.csv")
 primary <- comparison[
   comparison$comparison_tier == "primary_majority_incorrect",
@@ -113,14 +114,14 @@ stopifnot(
   sum(primary$answer_level_overlap == "yes") == 11L,
   sum(primary$answer_level_overlap == "partial") == 1L,
   sum(primary$answer_level_overlap == "no") == 1L,
-  sum(primary$mechanism_level_overlap == "no") == 9L,
+  sum(primary$mechanism_level_overlap == "no") == 8L,
   sum(primary$mechanism_level_overlap == "partial") == 2L,
-  sum(primary$mechanism_level_overlap == "indeterminate") == 2L,
+  sum(primary$mechanism_level_overlap == "indeterminate") == 3L,
   sum(primary$mechanism_level_overlap == "full") == 0L,
   sum(primary$Pattern == "Representation-driven") == 9L,
-  cell_n(primary_grid, "Yes", "No") == 7L,
+  cell_n(primary_grid, "Yes", "No") == 6L,
   cell_n(primary_grid, "Yes", "Partial") == 2L,
-  cell_n(primary_grid, "Yes", "Indeterminate") == 2L,
+  cell_n(primary_grid, "Yes", "Indeterminate") == 3L,
   cell_n(primary_grid, "Partial", "No") == 1L,
   cell_n(primary_grid, "No", "No") == 1L,
   all(
@@ -136,11 +137,66 @@ stopifnot(
   sum(sensitivity$incorrect_run_count) == 9L,
   sum(sensitivity$answer_level_overlap == "yes") == 6L,
   sum(sensitivity$mechanism_level_overlap == "no") == 3L,
-  sum(sensitivity$mechanism_level_overlap == "partial") == 3L,
+  sum(sensitivity$mechanism_level_overlap == "partial") == 2L,
+  sum(sensitivity$mechanism_level_overlap == "indeterminate") == 1L,
   sum(sensitivity$mechanism_level_overlap == "full") == 0L,
   sum(sensitivity$Pattern == "Representation-driven") == 3L,
   cell_n(sensitivity_grid, "Yes", "No") == 3L,
-  cell_n(sensitivity_grid, "Yes", "Partial") == 3L
+  cell_n(sensitivity_grid, "Yes", "Partial") == 2L,
+  cell_n(sensitivity_grid, "Yes", "Indeterminate") == 1L
+)
+
+# ---------- Source data ----------
+
+series_source <- rbind(primary, sensitivity)
+series_source <- data.frame(
+  `Analysis Set` = ifelse(
+    series_source$comparison_tier == "primary_majority_incorrect",
+    "Primary analysis",
+    "Sensitivity analysis"
+  ),
+  Model = series_source$model,
+  `Item ID` = series_source$item_id,
+  `Item Label` = series_source$Item_label,
+  Inventory = series_source$inventory,
+  `Incorrect Runs` = series_source$incorrect_run_count,
+  `Correct Runs` = series_source$correct_run_count,
+  `DNF Runs` = series_source$dnf_run_count,
+  `Majority Outcome` = series_source$majority_outcome,
+  `Error Pattern` = series_source$error_pattern,
+  `Answer-Level Overlap` = series_source$answer_level_overlap,
+  `Mechanism-Level Overlap` = series_source$mechanism_level_overlap,
+  `Evidence Basis` = series_source$evidence_basis,
+  `Evidence Qualification` = series_source$evidence_qualification,
+  `Cited Sources` = series_source$cited_sources,
+  check.names = FALSE
+)
+
+primary_cells_source <- data.frame(
+  `Analysis Set` = "Primary analysis",
+  `Analysis N` = nrow(primary),
+  `Answer-Level Overlap` = as.character(primary_cells$Answer),
+  `Mechanism-Level Overlap` = as.character(primary_cells$Mechanism),
+  `Series N` = primary_cells$Series_n,
+  check.names = FALSE
+)
+sensitivity_cells_source <- data.frame(
+  `Analysis Set` = "Sensitivity analysis",
+  `Analysis N` = nrow(sensitivity),
+  `Answer-Level Overlap` = as.character(sensitivity_cells$Answer),
+  `Mechanism-Level Overlap` = as.character(sensitivity_cells$Mechanism),
+  `Series N` = sensitivity_cells$Series_n,
+  check.names = FALSE
+)
+contingency_source <- rbind(primary_cells_source, sensitivity_cells_source)
+
+write_source_csv(
+  series_source,
+  file.path(source_dir, "figure5_series_classifications.csv")
+)
+write_source_csv(
+  contingency_source,
+  file.path(source_dir, "figure5_contingency_counts.csv")
 )
 
 # ---------- Draw ----------

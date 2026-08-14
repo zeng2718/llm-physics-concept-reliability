@@ -1,0 +1,25 @@
+"Analysis Set","Analysis N","Answer-Level Overlap","Mechanism-Level Overlap","Series N"
+"Primary analysis",13,"Yes","Indeterminate",3
+"Primary analysis",13,"Partial","Indeterminate",0
+"Primary analysis",13,"No","Indeterminate",0
+"Primary analysis",13,"Yes","No",6
+"Primary analysis",13,"Partial","No",1
+"Primary analysis",13,"No","No",1
+"Primary analysis",13,"Yes","Partial",2
+"Primary analysis",13,"Partial","Partial",0
+"Primary analysis",13,"No","Partial",0
+"Primary analysis",13,"Yes","Full",0
+"Primary analysis",13,"Partial","Full",0
+"Primary analysis",13,"No","Full",0
+"Sensitivity analysis",6,"Yes","Indeterminate",1
+"Sensitivity analysis",6,"Partial","Indeterminate",0
+"Sensitivity analysis",6,"No","Indeterminate",0
+"Sensitivity analysis",6,"Yes","No",3
+"Sensitivity analysis",6,"Partial","No",0
+"Sensitivity analysis",6,"No","No",0
+"Sensitivity analysis",6,"Yes","Partial",2
+"Sensitivity analysis",6,"Partial","Partial",0
+"Sensitivity analysis",6,"No","Partial",0
+"Sensitivity analysis",6,"Yes","Full",0
+"Sensitivity analysis",6,"Partial","Full",0
+"Sensitivity analysis",6,"No","Full",0

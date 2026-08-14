@@ -10,7 +10,7 @@ This package accompanies **“Reliability Boundaries of Reasoning Large Language
 
 | Directory | Contents |
 |---|---|
-| `data/` | De-identified formal response-level data, pre-adjudication coder labels, model configurations, the final student-misconception comparison classifications, and the presence-only recall-cue audit outcome |
+| `data/` | De-identified formal response-level data, pre-adjudication coder labels, model configurations, the final student-misconception comparison classifications with test-secure evidence qualifications, and the presence-only recall-cue audit outcome |
 | `prompts/` | The two formal prompt templates: one shared by main items and isomorphic variants, and one for the prompted self-review probe |
 | `codebook/` | Supplementary Tables S2–S6 in machine-readable form and coding-field guidance |
 | `variants/` | Test-secure ID-level mapping, reproducible stratified selection, G1–G5 criteria, constrained option-permutation outcomes, and sanitized two-reviewer approval outcomes |
@@ -26,7 +26,7 @@ From the package root:
 
 ```bash
 Rscript scripts/analysis/reproduce_manuscript_tables.R
-python scripts/analysis/compute_intercoder_reliability.py
+python3 scripts/analysis/compute_intercoder_reliability.py
 Rscript scripts/figures/figure2_main_item_reliability.R
 Rscript scripts/figures/figure3_spatial_representation_failures.R
 Rscript scripts/figures/figure4_prompted_self_review.R

@@ -90,14 +90,8 @@ pair_source <- data.frame(
 )
 write_public_csv(pair_source, "table1_variant_pair_outcomes.csv")
 
-transition_summary <- function(x, label, calculate_p = FALSE) {
+transition_summary <- function(x, label) {
   counts <- table(factor(x$Transition, levels = c("C→C", "C→W", "W→C", "W→W", "Unresolved")))
-  discordant <- unname(counts["C→W"] + counts["W→C"])
-  exact_p <- if (calculate_p && discordant > 0L) {
-    binom.test(unname(counts["C→W"]), discordant, p = 0.5)$p.value
-  } else {
-    NA_real_
-  }
   data.frame(
     `Model or Analysis` = label,
     `Pair n` = nrow(x),
@@ -106,7 +100,6 @@ transition_summary <- function(x, label, calculate_p = FALSE) {
     `W to C` = unname(counts["W→C"]),
     `W to W` = unname(counts["W→W"]),
     Unresolved = unname(counts["Unresolved"]),
-    `Exact McNemar p` = exact_p,
     check.names = FALSE
   )
 }
@@ -119,24 +112,16 @@ table1 <- do.call(
 )
 table1 <- rbind(
   table1,
-  transition_summary(pairs, "Pooled", calculate_p = TRUE),
+  transition_summary(pairs, "Pooled"),
   transition_summary(
     pairs[pairs$retained_original_answer_letter == "no", , drop = FALSE],
-    "Pooled, excluding four same-letter variants",
-    calculate_p = TRUE
+    "Pooled, excluding four same-letter variants"
   )
-)
-table1[["Exact McNemar p"]] <- ifelse(
-  is.na(table1[["Exact McNemar p"]]),
-  "-",
-  sprintf("%.3f", as.numeric(table1[["Exact McNemar p"]]))
 )
 
 stopifnot(
   identical(as.integer(table1[5, 2:7]), c(100L, 93L, 1L, 3L, 1L, 2L)),
-  identical(as.integer(table1[6, 2:7]), c(84L, 77L, 1L, 3L, 1L, 2L)),
-  table1[5, "Exact McNemar p"] == "0.625",
-  table1[6, "Exact McNemar p"] == "0.625"
+  identical(as.integer(table1[6, 2:7]), c(84L, 77L, 1L, 3L, 1L, 2L))
 )
 write_public_csv(table1, "table1_variant_transition_summary.csv")
 
@@ -184,16 +169,16 @@ table3 <- data.frame(
     "Comparison with documented student misconceptions"
   ),
   `Empirical Capability and Boundary` = c(
-    "High accuracy and stable transfer to isomorphic variants; evidence is limited to the tested transformations.",
+    "High accuracy and predominantly correct-to-correct transitions on isomorphic variants; evidence is limited to the tested transformations.",
     "Most illustrated items were solved correctly, but representation failures clustered by model and figure format.",
-    "Responses were usually stable, but stable errors occurred and prompted review of inconsistent solutions did not reliably correct them.",
+    "Responses were usually stable, but 7 of 13 majority-incorrect series were answer-stable across completed runs; prompted review of selected inconsistent series produced no net change in correct-majority outcomes.",
     "Calibration was model-specific, with high-confidence errors and inconsistent scale use.",
     "Wrong-option overlap was common, but the underlying mechanisms generally differed from documented student misconceptions."
   ),
   `Educational Implication` = c(
     "Support concept-question solving and independently verifiable answer checking.",
     "Validate the deployed model on the actual figures; test clearer redraws or parallel text where needed.",
-    "Use disagreement as a warning signal; persistent cases require changed representations or external verification.",
+    "Use disagreement as a partial warning signal; agreement does not establish correctness, and stable or representation-sensitive cases may require changed representations or external verification.",
     "Calibrate by model and use confidence to prioritize review, not as proof of correctness.",
     "Do not use model errors as proxies for student thinking without mechanism-level validation."
   ),
