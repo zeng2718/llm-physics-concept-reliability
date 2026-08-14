@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these data, code, or study materials, please cite this repository and the associated manuscript."
 type: software
 title: "Public data and code for Reliability Boundaries of Reasoning Large Language Models in Physics Education: Evidence from Concept Inventories"
-version: 1.0.3
+version: 1.0.4
 authors:
   - family-names: Zeng
     given-names: Yi
