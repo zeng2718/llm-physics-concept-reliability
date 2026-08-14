@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21853226.svg)](https://doi.org/10.5281/zenodo.21853226)
 
-Archived release supporting the manuscript: **v1.0.2**, [https://doi.org/10.5281/zenodo.21853227](https://doi.org/10.5281/zenodo.21853227).
+Archived releases supporting the manuscript: [https://doi.org/10.5281/zenodo.21853226](https://doi.org/10.5281/zenodo.21853226) (concept DOI, always resolving to the latest archived version).
 
 This package accompanies **“Reliability Boundaries of Reasoning Large Language Models in Physics Education: Evidence from Concept Inventories.”** It contains the smallest test-secure set of data, code, prompts, coding definitions, and variant-review records needed to reproduce the reported analyses without redistributing protected concept-inventory content or keyed responses.
 
